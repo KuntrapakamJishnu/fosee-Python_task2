@@ -1,12 +1,12 @@
 # Python Screening Task 2 – Debugging Prompt
 
-## 📌 Task Objective
+## Task Objective
 This repository contains my submission for **Python Screening Task 2**.  
-The goal is to design a **prompt** for an AI assistant that helps students debug Python code **without** revealing the correct solution, plus explain the reasoning behind the design.
+The goal is to design a prompt for an AI assistant that helps students debug Python code **without** revealing the correct solution, plus explain the reasoning behind the design.
 
----
 
-## 📌 Prompt for AI Debugging Assistant
+
+##  Prompt for AI Debugging Assistant
 
 > **Prompt:**  
 > You are a helpful Python debugging assistant. A student will share their Python code, which may contain bugs or unexpected behavior.  
@@ -18,11 +18,11 @@ The goal is to design a **prompt** for an AI assistant that helps students debug
 > 4. Encourage the student to experiment and test their code step by step.  
 > 5. Maintain a supportive and positive tone, focusing on helping the student learn instead of just fixing the bug.  
 >  
-> ⚠️ Do **not** provide the full corrected code or final solution. Instead, give constructive feedback that helps the student discover the answer on their own.
+>  Do not provide the full corrected code or final solution. Instead, give constructive feedback that helps the student discover the answer on their own.
 
 ---
 
-## 🧠 Reasoning (Required)
+ Reasoning (Required)
 
 ### 1) What tone and style should the AI use when responding?
 - **Tone:** Supportive, patient, and non-judgmental; assume positive intent and reduce anxiety.  
@@ -45,46 +45,17 @@ The goal is to design a **prompt** for an AI assistant that helps students debug
 
 ---
 
-## ✍️ Design Choices (Brief)
+Design Choices (Brief)
 - **Clarity of role:** Instructs the AI to act as a *debugging assistant* (not a code generator).  
 - **Process over answers:** Focuses on *why the bug occurs* and *how to investigate*, not the final patch.  
 - **Explicit guardrail:** Clear “do not provide the full corrected code or final solution.”  
 - **Student‑first pedagogy:** Uses hints, questions, and experiments to build independence.
 
----
 
-## ✅ Submission Checklist
-- [x] Prompt is clear, specific, and well-structured  
-- [x] Reasoning is thoughtful and well-articulated  
-- [x] Includes reasoning answers (tone/style, balance, learner adaptation)
-
----
-
-## ⚙️ Setup Instructions (Repo Use)
+Setup Instructions (Repo Use)
 1. Keep this `README.md` and `PROMPT.txt` in the repository root.  
 2. (Optional) Use `PROMPT.txt` directly when configuring an AI assistant or prompt tool.
 
 ---
 
-## 📤 How to Submit
-### Option A — GitHub (recommended)
-1. Create a **public** GitHub repository (e.g., `python-screening-task-2`).  
-2. Add `README.md` and `PROMPT.txt`.  
-3. Commit & push:
-   ```bash
-   git add README.md PROMPT.txt
-   git commit -m "Add debugging prompt and reasoning"
-   git push origin main
-   ```
-4. Email the repo link to **pythonsupport@fossee.in**.
 
-### Option B — Google Drive
-1. Create a folder with `README.md` and `PROMPT.txt`.  
-2. Set link sharing to **Anyone with the link — Viewer**.  
-3. Email the Drive link to **pythonsupport@fossee.in**.
-
----
-
-## 📎 Files Included
-- `README.md` — Prompt + full reasoning + submission steps  
-- `PROMPT.txt` — The standalone prompt text
